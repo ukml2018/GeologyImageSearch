@@ -1,0 +1,4 @@
+mysql_host: '129.146.85.135'
+mysq_user: 'xxuser'
+mysql_password: 'welcome1'
+mysql_db: 'sampledb'
