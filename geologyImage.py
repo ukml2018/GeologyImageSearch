@@ -10,12 +10,10 @@ from watson_developer_cloud import VisualRecognitionV3
 UPLOAD_FOLDER = '/images'
 ALLOWED_EXTENSIONS = {'txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'}
 
-#app = Flask(__name__)
 application = Flask(__name__)
 application.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 charSet = "utf8mb4"
 
-#@app.route('/upload', methods=['GET', 'POST'])
 @application.route('/', methods=['GET', 'POST'])
 def find():
     #print(os.path)
@@ -31,17 +29,23 @@ def find():
             #print(DATADIR)
             file.save(os.path.join(DATADIR, filename))
             #print('uploaded')
-            apiKey = "vtrNuNjYNOQ82JmjBi7X0vmpsQT9jc5z7Nu9P6rWJv3h"
-            version = "2020-01-16"
+            apiKey = "Ja7s0jMglLzbrakE5h76OQUodSXpfVbNhKjT6dwS8WBt"
+            version = "2020-02-29"
             visual_recognition = VisualRecognitionV3(version=version, iam_apikey=apiKey)
             with open(os.path.join(DATADIR, filename), 'rb') as images_file:
                 classes = visual_recognition.classify(
                     images_file,
-                    threshold='0.6',
-                    classifier_ids='DefaultCustomModel_1149885701').get_result()
+                    threshold='0.8',
+                    classifier_ids='DefaultCustomModel_53113048').get_result()
+            print(classes)
             data = (json.dumps(classes, indent=2))
-            data = (data[data.index('"class": "') + 10:data.index(''"score"'') - 2]).rstrip()
-            data = data[0:data.index('"')]
+            try:
+               print(data)
+               data = (data[data.index('"class": "') + 10:data.index(''"score"'') - 2]).rstrip()
+               data = data[0:data.index('"')]
+            except:
+               print('In except block')
+               data = 'andesite'
             input =data
         print(input)
         image_names = os.listdir('./images/{}' .format(input))

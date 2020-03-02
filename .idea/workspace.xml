@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b357a29-2b3e-4083-86a5-bb161cd5ddb5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/geologyImage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flaskapp/.idea/Flaskapp.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flaskapp/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flaskapp/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flaskapp/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flaskapp/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flaskapp/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flaskapp/.s2i/environment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geologyImage.py" beforeDir="false" afterPath="$PROJECT_DIR$/geologyImage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imageClassificationTF.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/andesite/0A5NL.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/andesite/0A5NL.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gneiss/00JQK.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/gneiss/00JQK.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/marble/00GNB.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/marble/00GNB.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/quartzite/00DG0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/quartzite/00DG0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/rhyolite/00RR8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/rhyolite/00RR8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/schist/00BXB.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/schist/00BXB.jpg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,11 +21,12 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../predictiveMaintenance.py">
+        <entry file="file://$PROJECT_DIR$/geologyImage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="187">
+              <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#0#104#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -53,12 +51,12 @@
         <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/wsgi.py" />
         <option value="$PROJECT_DIR$/../week4.py" />
-        <option value="$PROJECT_DIR$/geologyImage.py" />
         <option value="$PROJECT_DIR$/../predictiveMaintenance.py" />
+        <option value="$PROJECT_DIR$/geologyImage.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="width" value="1920" />
     <option name="height" value="1032" />
   </component>
@@ -205,7 +203,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="688" extended-state="1" />
+    <frame x="0" y="0" width="1280" height="688" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
@@ -213,14 +211,14 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31260794" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7172196" weight="0.31260794" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.2827804" side_tool="true" visible="true" weight="0.31260794" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -257,58 +255,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../NPTEL/Python for Data Science/week4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="102" column="21" lean-forward="true" selection-start-line="88" selection-end-line="102" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#83#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_upload_file_python-master.zip/upload_file_python-master/src/app_display_multiple_images.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../NPTEL/Python for Data Science/week4.py" />
+    <entry file="file://$PROJECT_DIR$/wsgi.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_upload_file_python-master.zip/upload_file_python-master/src/app_display_multiple_images.py" />
+    <entry file="file://$PROJECT_DIR$/../week4.py" />
+    <entry file="file://$PROJECT_DIR$/../predictiveMaintenance.py" />
     <entry file="file://$PROJECT_DIR$/geologyImage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="73" column="39" lean-forward="true" selection-start-line="73" selection-start-column="39" selection-end-line="73" selection-end-column="39" />
+        <state relative-caret-position="187">
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
           <folding>
-            <element signature="e#0#83#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../week4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../predictiveMaintenance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#104#0" expanded="true" />
           </folding>
         </state>
       </provider>
