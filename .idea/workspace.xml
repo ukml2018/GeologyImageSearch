@@ -4,13 +4,7 @@
     <list default="true" id="7b357a29-2b3e-4083-86a5-bb161cd5ddb5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/geologyImage.py" beforeDir="false" afterPath="$PROJECT_DIR$/geologyImage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imageClassificationTF.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/andesite/0A5NL.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/andesite/0A5NL.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gneiss/00JQK.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/gneiss/00JQK.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/marble/00GNB.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/marble/00GNB.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/quartzite/00DG0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/quartzite/00DG0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/rhyolite/00RR8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/rhyolite/00RR8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/schist/00BXB.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/schist/00BXB.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index1.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,14 +13,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/geologyImage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+            <state relative-caret-position="136">
+              <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
               <folding>
                 <element signature="e#0#104#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../geologicalImageClassification/imageClassificationTF.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="134" column="40" selection-start-line="134" selection-start-column="19" selection-end-line="134" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#46#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -52,11 +58,12 @@
         <option value="$PROJECT_DIR$/wsgi.py" />
         <option value="$PROJECT_DIR$/../week4.py" />
         <option value="$PROJECT_DIR$/../predictiveMaintenance.py" />
+        <option value="$PROJECT_DIR$/../Predictive_Maintenance/predictiveMaintenance.py" />
         <option value="$PROJECT_DIR$/geologyImage.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="width" value="1920" />
     <option name="height" value="1032" />
   </component>
@@ -71,8 +78,8 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../geologicalImageClassification/imageClassificationTF.py" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -95,20 +102,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.geologyImage">
-    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.imageClassificationTF">
+    <configuration name="geologyImage (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Flaskapp" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\UTTAMMANNA\AppData\Local\Programs\Python\Python37\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="C:/IBM/amazon_interview_questions/GeologyImageSearch" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="SCRIPT_NAME" value="C:/IBM/amazon_interview_questions/GeologyImageSearch/geologyImage.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -138,7 +145,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="predictiveMaintenance" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="geologyImageold" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Flaskapp" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -146,11 +153,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="WORKING_DIRECTORY" value="C:/IBM/amazon_interview_questions/GeologyImageSearch" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../predictiveMaintenance.py" />
+      <option name="SCRIPT_NAME" value="C:/IBM/amazon_interview_questions/GeologyImageSearch/geologyImageold.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,7 +166,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="wsgi" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="imageClassificationTF" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Flaskapp" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -167,11 +174,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../geologicalImageClassification" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wsgi.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../geologicalImageClassification/imageClassificationTF.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="predictiveMaintenance (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Flaskapp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Predictive_Maintenance" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Predictive_Maintenance/predictiveMaintenance.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -182,10 +210,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.imageClassificationTF" />
         <item itemvalue="Python.geologyImage" />
-        <item itemvalue="Python.predictiveMaintenance" />
-        <item itemvalue="Python.wsgi" />
-        <item itemvalue="Python.app" />
+        <item itemvalue="Python.geologyImageold" />
+        <item itemvalue="Python.geologyImage (1)" />
+        <item itemvalue="Python.predictiveMaintenance (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +232,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="688" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="688" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
@@ -211,14 +240,14 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7172196" weight="0.31260794" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7164297" visible="true" weight="0.27288428" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.2827804" side_tool="true" visible="true" weight="0.31260794" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.2835703" side_tool="true" weight="0.31260794" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -260,12 +289,43 @@
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_upload_file_python-master.zip/upload_file_python-master/src/app_display_multiple_images.py" />
     <entry file="file://$PROJECT_DIR$/../week4.py" />
     <entry file="file://$PROJECT_DIR$/../predictiveMaintenance.py" />
-    <entry file="file://$PROJECT_DIR$/geologyImage.py">
+    <entry file="file://C:/IBM/amazon_interview_questions/GeologyImageSearch/geologyImage.py" />
+    <entry file="file://$PROJECT_DIR$/../Predictive_Maintenance/predictiveMaintenance.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+        <state relative-caret-position="162">
+          <caret line="130" selection-start-line="130" selection-end-line="130" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/IBM/amazon_interview_questions/GeologyImageSearch/geologyImageold.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
           <folding>
             <element signature="e#0#104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geologyImage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../geologicalImageClassification/imageClassificationTF.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="134" column="40" selection-start-line="134" selection-start-column="19" selection-end-line="134" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
           </folding>
         </state>
       </provider>

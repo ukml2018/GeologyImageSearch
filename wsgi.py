@@ -39,25 +39,24 @@ def find():
                     classifier_ids='DefaultCustomModel_53113048').get_result()
             print(classes)
             data = (json.dumps(classes, indent=2))
+            print('0')
             try:
+               print('1')
                print(data)
                data = (data[data.index('"class": "') + 10:data.index(''"score"'') - 2]).rstrip()
                data = data[0:data.index('"')]
             except:
                print('In except block')
-               data = 'andesite'
+               #data = 'andesite'
+               return render_template('index1.html')
             input =data
         print(input)
         image_names = os.listdir('./images/{}' .format(input))
         print(image_names)
+        #print('3')
         if len(image_names) != 0:
-               target = os.listdir('./images/{}' .format(input))
-               if  os.path.isdir(target):
-                  print(image_names)
-                  return render_template("gallery.html", image_names=image_names)
-               else :
-                  print("This is a negative or unclassified image")
-                  return render_template('index1.html')
+               #print("4")
+               return render_template("gallery.html", image_names=image_names)
     return render_template('index1.html')
 
 @application.route('/<filename>')
