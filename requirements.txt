@@ -29,7 +29,7 @@ kiwisolver==1.0.1
 more-itertools==4.3.0
 mysql-connector-python
 mysql-connector
-notebook==5.7.0
+notebook==6.1.5
 numpy==1.15.1
 opencv-python
 paho-mqtt==1.4.0
