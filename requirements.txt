@@ -17,7 +17,7 @@ holidays==0.9.8
 imutils==0.5.1
 ipykernel==5.0.0
 ipython-genutils==0.2.0
-ipython==7.0.1
+ipython==7.16.3
 ipywidgets==7.4.2
 jsonlines==1.2.0
 jsonschema==2.6.0
