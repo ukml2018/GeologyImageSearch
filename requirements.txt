@@ -30,7 +30,7 @@ more-itertools==4.3.0
 mysql-connector-python
 mysql-connector
 notebook==5.7.0
-numpy==1.15.1
+numpy==1.22.0
 opencv-python
 paho-mqtt==1.4.0
 pandas==0.23.4
